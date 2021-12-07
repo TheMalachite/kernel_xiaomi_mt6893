@@ -21,6 +21,7 @@
 *.gcno
 *.gz
 *.i
+!drivers/input/touchscreen/focaltech_spi/include/firmware/*.i
 *.ko
 *.ll
 *.lst
