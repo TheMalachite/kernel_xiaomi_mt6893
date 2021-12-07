@@ -13,6 +13,7 @@ source "drivers/input/touchscreen/mediatek/Kconfig"
 
 if INPUT_TOUCHSCREEN
 
+source "drivers/input/touchscreen/focaltech_spi/Kconfig"
 source "drivers/input/touchscreen/xiaomi/Kconfig"
 source "drivers/input/touchscreen/NVT36672c/Kconfig"
 
